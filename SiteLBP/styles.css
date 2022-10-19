@@ -1,0 +1,107 @@
+body {
+	background: url("images/fond.jpg") fixed;
+	color: white;
+	font-family: Raya, Arial, sans-serif;
+}
+
+header
+{
+	align-items: flex-end;
+}
+
+a
+{
+	color: white;
+}
+
+a:hover
+{
+	color: red;
+	font-style: italic;
+}
+
+#bannieretop
+{
+	display: flex;
+	background: url("images/bannieretop1.png") no-repeat;
+	position: relative;
+	padding-bottom: 250px;
+	border-radius: 50px;
+}
+
+header h1
+{
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	font-size: 50px;
+	text-decoration: underline;
+	text-shadow: 4px -8px 3px black;
+}
+
+header h3
+{
+	position: absolute;
+	top: 120px;
+	right: 40px;
+	text-shadow: 5px -5px 2px black;
+}
+
+nav ul
+{
+	position: absolute;
+	list-style-type: none;
+	display: flex;
+	align-items: right;
+	font-size: 30px;
+	left: 200px;
+	bottom: 10px;
+}
+
+nav li
+{
+	color: white;
+	margin-right: 10px;
+	padding-left: 50px;
+	text-shadow: 5px -5px 2px black;
+}
+
+.fond
+{
+	display: inline-block;
+	position: relative;
+	background: url("images/fondtitre.jpg") no-repeat;
+	border: none;
+	border-radius: 20px;
+	width: 500px;
+}
+
+
+section h1
+{
+	padding-left: 50px;
+	font-size: 60px;
+	text-decoration: underline;
+	text-shadow: 3px 3px 2px black;
+}
+
+
+section p
+{
+	padding: 30px 20px 25px 10px;
+	font-size: 25px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+
+footer
+{
+	background-color: black;
+	display: flex;
+	position: relative;
+}
+
+footer img
+{
+	width: 50px;
+}
